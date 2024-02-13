@@ -9,7 +9,7 @@ app = Flask(__name__)
 model = CNN()
 # Load the trained model
 model.load_state_dict(torch.load(
-    'ngupta22_assignment0_bonus/model/ngupta22_assignment0_bonus.pt'))
+    'ngupta22_assignment0_bonus/model/ngupta22_assignment0_part_3.pt'))
 model.eval()
 
 @app.route('/')
